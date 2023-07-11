@@ -1,0 +1,23 @@
+{
+  "name": "chhelp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "chhelp": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "inquirer": "^9.2.7",
+    "kleur": "^4.1.5",
+    "ora": "^6.3.1"
+  },
+  "peerDependencies": {
+    "inquirer": "^9.2.7",
+    "kleur": "^4.1.5",
+    "ora": "^6.3.1"
+  }
+}
