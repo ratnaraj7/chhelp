@@ -15,7 +15,7 @@ jobs:
           node-version: 18.x
           registry-url: https://registry.npmjs.org
       - name: install packages and build
-        run: npm ci
+        run: npm i
       - name: publish
         run: npm publish --access public
         env:
